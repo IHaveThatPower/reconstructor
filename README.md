@@ -1,6 +1,7 @@
 # Reconstructor
 Camera position reconstructor for Blender, using correlated motion tracker markers across different movie clips to solve camera positions
 
+## General Plan/Workflow
 1. Create motion tracks from clips with matching focal lengths.
 	* Individual images within clips must have the same focal length
 	* Clips should be at least partially track-solved (if correspondences found) to derive optical center or distortion params.
